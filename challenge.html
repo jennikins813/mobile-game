@@ -22,6 +22,19 @@
       //keep the game going
       var gameLive = true;
 
+      /*
+
+      ///////////////////
+
+      CHALLENGE - Add enemies to the game
+
+      Add two new enemies:
+
+      -enemy on 300 for x, 100 for y, speed of 1. keep same w and h
+      -enemy on 140 for x, 300 for y, speed of 1. keep same w and h
+
+      */
+
       //enemies
       var enemies = [
         {
@@ -49,6 +62,20 @@
           x: 450,
           y: 100,
           speedY: 5,
+          w: 40,
+          h: 40
+        },
+        {
+          x: 300,
+          y: 100,
+          speedY: 1,
+          w: 40,
+          h: 40
+        },
+        {
+          x: 140,
+          y: 300,
+          speedY: 1,
           w: 40,
           h: 40
         }
